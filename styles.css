@@ -1,0 +1,200 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-size: 18px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #4CAF50;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* About Section */
+#about {
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+#about .about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Skills Section */
+#skills {
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Projects Section */
+#projects {
+  background-color: white;
+  padding: 50px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project {
+  width: 30%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+/* Recommendations Section */
+#recommendations {
+  background-color: white;
+  padding: 50px;
+}
+
+.recommendations-list {
+  margin-bottom: 20px;
+}
+
+.recommendation {
+  background-color: #e9e9e9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.recommendation p {
+  font-style: italic;
+}
+
+.recommendation span {
+  font-size: 12px;
+  color: #888;
+}
+
+.recommendation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recommendation-form textarea {
+  width: 100%;
+  max-width: 500px;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.recommendation-form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recommendation-form button:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-icon {
+  font-size: 30px;
+}
+
+/* Popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 10px;
+}

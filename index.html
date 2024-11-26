@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Muhammed Ebrahim</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="my photo.jpg" alt="Profile Image" class="profile-img">
+      <p>Hi! Muhammed Ebrahim, a passionate Full stack Mobile developer with a keen interest in creating beautiful and functional Moblile applications. I specialize in front-end development(Android Jetpack compose, Flutter, and React Natve) with backend(Django)and love to learn new technologies.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">
+        <img src="icons8-html-logo-48.png" alt="HTML Logo">
+        <p>HTML5</p>
+      </div>
+      <div class="skill">
+        <img src="icons8-tailwind-css-48.png" alt="CSS Logo">
+        <p>Tailwind CSS</p>
+      </div>
+      <div class="skill">
+        <img src="icons8-javascript-48.png" alt="JavaScript Logo">
+        <p>JavaScript</p>
+      </div>
+      <div class="skill">
+        <img src="jetpack compose icon_RGB.png" alt="React Logo">
+        <p>Jetpack Compose</p>
+      </div>
+      <div class="skill">
+        <img src="icons8-flutter-48.png" alt="React Logo">
+        <p>Flutter</p>
+      </div>
+      <div class="skill">
+        <img src="icons8-react-native-64.png" alt="React Logo">
+        <p>React Native</p>
+      </div>
+      <div class="skill">
+        <img src="icons8-django-50.png" alt="React Logo">
+        <p>Django</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Project 1: Portfolio Website</h3>
+        <p>A personal portfolio website built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Project 2: Task Management App</h3>
+        <p>A web app to manage daily tasks using React and Node.js.</p>
+      </div>
+      <div class="project">
+        <h3>Project 3: E-commerce Mobile app</h3>
+        <p>An e-commerce platform built with React and Firebase.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div class="recommendations-list">
+      <div class="recommendation">
+        <p>"Muhammed is a fantastic developer, always delivers high-quality work."</p>
+        <span>- Sarah, Web Designer</span>
+      </div>
+      <div class="recommendation">
+        <p>"Great attention to detail and always willing to learn new things!"</p>
+        <span>- Mike, Software Engineer</span>
+      </div>
+    </div>
+
+    <div class="recommendation-form">
+      <h3>Add a Recommendation</h3>
+      <textarea id="recommendation-text" placeholder="Write a recommendation..."></textarea>
+      <button onclick="submitRecommendation()">Submit</button>
+    </div>
+  </section>
+
+  <footer>
+    <a href="#about" class="home-icon">🏠</a>
+  </footer>
+
+  <div id="popup" class="popup">
+    <p>Recommendation submitted successfully!</p>
+    <button onclick="closePopup()">Close</button>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
