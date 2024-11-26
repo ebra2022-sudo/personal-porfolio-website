@@ -49,9 +49,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #4CAF50;
-  background-color: #fff;
-  border-radius: 5px;
+  font-weight: bold;
+  color: white
 }
 
 /* About Section */
